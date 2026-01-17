@@ -1,0 +1,25 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0" x1="0" y1="0" x2="900" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f2537" />
+      <stop offset="0.45" stop-color="#3b1f2e" />
+      <stop offset="1" stop-color="#09101f" />
+    </linearGradient>
+    <linearGradient id="paint1" x1="160" y1="80" x2="600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff7aa2" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#4dc1ff" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="32" fill="url(#paint0)" />
+  <circle cx="680" cy="120" r="120" fill="#ff4d6d" fill-opacity="0.25" />
+  <circle cx="760" cy="320" r="160" fill="#3aa8ff" fill-opacity="0.2" />
+  <path d="M120 400C220 340 280 220 400 220C520 220 580 320 700 300" stroke="url(#paint1)" stroke-width="10" stroke-linecap="round" />
+  <g fill="#f8f9ff">
+    <text x="90" y="150" font-size="44" font-family="Inter, sans-serif" font-weight="700">Stormfront: Origin</text>
+    <text x="90" y="200" font-size="18" font-family="Inter, sans-serif" fill="#c7cadc">Vamsick Flixer Spotlight</text>
+  </g>
+  <g>
+    <rect x="90" y="240" width="210" height="42" rx="21" fill="#202638" />
+    <text x="110" y="268" font-size="16" font-family="Inter, sans-serif" fill="#ff7aa2">Now Streaming</text>
+  </g>
+</svg>
