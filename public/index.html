@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flixer by Vamsick</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <div class="brand">Flixer<span>V</span></div>
+        <nav class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Series</a>
+          <a href="#">Films</a>
+          <a href="#">Originals</a>
+          <a href="#">My List</a>
+        </nav>
+        <div class="search">
+          <input id="searchInput" type="text" placeholder="Search titles, genres" />
+          <button id="searchButton">Search</button>
+        </div>
+        <div class="profile">Vamsick</div>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="badge">#1 in Sci-Fi This Week</span>
+            <h1 id="heroTitle">Loading...</h1>
+            <p id="heroSummary"></p>
+            <div class="hero-meta" id="heroMeta"></div>
+            <div class="hero-actions">
+              <button class="primary">Play</button>
+              <button class="ghost">More Info</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2>Trending Now</h2>
+            <span>Updated hourly</span>
+          </div>
+          <div class="card-row" id="trendingRow"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2>Vamsick Originals</h2>
+            <span>Exclusive premiers</span>
+          </div>
+          <div class="card-row" id="originalsRow"></div>
+        </section>
+
+        <section class="section grid-section">
+          <div class="section-header">
+            <h2>Because you love bold stories</h2>
+            <span>Curated for Vamsick</span>
+          </div>
+          <div class="grid" id="resultsGrid">
+            <div class="empty-state">Search to explore the catalog.</div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div>
+          <strong>Flixer by Vamsick</strong>
+          <p>Built with a custom Express backend and curated experiences.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Support</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
