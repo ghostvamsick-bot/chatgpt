@@ -1,0 +1,70 @@
+{
+  "featured": {
+    "title": "Orbit of Dawn",
+    "year": 2024,
+    "rating": "PG-13",
+    "duration": "2h 07m",
+    "description": "A rogue navigator and a reluctant captain trace a lost signal that could reset humanity's future.",
+    "tags": ["Sci-Fi", "Adventure", "Original"],
+    "heroImage": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80"
+  },
+  "trending": [
+    {
+      "title": "Midnight Dunes",
+      "year": 2023,
+      "rating": "TV-14",
+      "duration": "1h 48m",
+      "genre": "Thriller"
+    },
+    {
+      "title": "Lucent",
+      "year": 2024,
+      "rating": "TV-MA",
+      "duration": "10 eps",
+      "genre": "Drama"
+    },
+    {
+      "title": "Aurora Field",
+      "year": 2022,
+      "rating": "PG",
+      "duration": "1h 32m",
+      "genre": "Family"
+    },
+    {
+      "title": "Signal Nine",
+      "year": 2024,
+      "rating": "PG-13",
+      "duration": "2h 12m",
+      "genre": "Action"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vamsick Originals",
+      "items": [
+        "Nebula Diaries",
+        "Glasswave",
+        "Tessera",
+        "The Ninth Sky"
+      ]
+    },
+    {
+      "name": "Trending Now",
+      "items": [
+        "Gravity Lane",
+        "White Harbor",
+        "Radiant Run",
+        "Anchor Point"
+      ]
+    },
+    {
+      "name": "Feel-Good",
+      "items": [
+        "Summer Parade",
+        "Citrus Nights",
+        "Skyline Picnic",
+        "Golden Hour"
+      ]
+    }
+  ]
+}
