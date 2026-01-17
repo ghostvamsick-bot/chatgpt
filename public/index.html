@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamsick Flixer</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <div class="logo">Vamsick<span>Flixer</span></div>
+        <nav class="nav">
+          <a href="#browse">Browse</a>
+          <a href="#collections">Collections</a>
+          <a href="#new">New</a>
+          <a href="#top">Top Rated</a>
+        </nav>
+        <div class="actions">
+          <button class="ghost">Kids</button>
+          <button class="ghost">My List</button>
+          <button class="primary">Sign In</button>
+        </div>
+      </header>
+
+      <section class="hero" id="browse">
+        <div class="hero-card">
+          <div class="pill">Vamsick Originals</div>
+          <h1 id="hero-title">Stormfront: Origin</h1>
+          <p class="meta" id="hero-meta">2024 · PG-13 · 2h 12m</p>
+          <p class="description" id="hero-description">
+            Loading spotlight...
+          </p>
+          <div class="tag-row" id="hero-tags"></div>
+          <div class="hero-actions">
+            <button class="primary">Play</button>
+            <button class="secondary">More Info</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img id="hero-image" alt="Spotlight artwork" />
+          <div class="hero-overlay"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Why Vamsick Flixer?</h2>
+          <p>Premium streaming inspired by Flixer, tuned for fast discovery and bold visuals.</p>
+        </div>
+        <div class="panel-grid">
+          <article>
+            <h3>Personalized For You</h3>
+            <p>Smart curation backed by lightweight APIs for spotlight, genres, and collections.</p>
+          </article>
+          <article>
+            <h3>Watch Anywhere</h3>
+            <p>Adaptive layouts built for large screens and mobile marathons.</p>
+          </article>
+          <article>
+            <h3>Always Fresh</h3>
+            <p>Dynamic release rails with quick filters and instant search.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="rail" id="new">
+        <div class="rail-header">
+          <h2>New Releases</h2>
+          <p>Just dropped on Vamsick Flixer this week.</p>
+        </div>
+        <div class="cards" id="rail-new"></div>
+      </section>
+
+      <section class="rail" id="top">
+        <div class="rail-header">
+          <h2>Top Rated</h2>
+          <p>Highly rated by our late-night critics.</p>
+        </div>
+        <div class="cards" id="rail-top"></div>
+      </section>
+
+      <section class="panel" id="collections">
+        <div class="panel-header">
+          <h2>Collections</h2>
+          <p>Curated stacks of movies for every mood.</p>
+        </div>
+        <div class="collection-grid" id="collections-grid"></div>
+      </section>
+
+      <section class="search">
+        <div>
+          <h2>Search the library</h2>
+          <p>Find every title fast with the search API.</p>
+        </div>
+        <div class="search-box">
+          <input id="search-input" type="text" placeholder="Search movies" />
+          <button class="primary" id="search-button">Search</button>
+        </div>
+        <div class="search-results" id="search-results"></div>
+      </section>
+
+      <footer class="site-footer">
+        <div>
+          <strong>Vamsick Flixer</strong>
+          <p>Inspired by Flixer. Built with love for vamsick.</p>
+        </div>
+        <div class="footer-links">
+          <a href="/api/status">API Status</a>
+          <a href="/api/genres">Browse API</a>
+          <a href="/api/collections">Collections API</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
