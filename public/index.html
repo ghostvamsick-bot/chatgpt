@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamsick Flixer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top-bar">
+        <div class="logo">Vamsick<span>Flixer</span></div>
+        <nav class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Series</a>
+          <a href="#">Movies</a>
+          <a href="#">New &amp; Popular</a>
+          <a href="#">My List</a>
+        </nav>
+        <div class="actions">
+          <button class="icon-button" id="search-button" aria-label="Search">🔍</button>
+          <button class="primary-button">Sign In</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="hero-content">
+            <p class="eyebrow">Now streaming on Vamsick Flixer</p>
+            <h1 id="hero-title">Orbit of Dawn</h1>
+            <p id="hero-meta" class="meta"></p>
+            <p id="hero-description" class="description"></p>
+            <div class="hero-actions">
+              <button class="primary-button">Play</button>
+              <button class="secondary-button">Add to List</button>
+            </div>
+            <div class="hero-tags" id="hero-tags"></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2>Trending on Vamsick</h2>
+            <p>What everyone is watching this week.</p>
+          </div>
+          <div class="card-grid" id="trending-grid"></div>
+        </section>
+
+        <section class="section" id="categories"></section>
+
+        <section class="section subscribe">
+          <div>
+            <h2>Make movie night effortless</h2>
+            <p>
+              Personalized picks, smart profiles, and curated collections for every mood. Powered by
+              the Vamsick streaming backend.
+            </p>
+          </div>
+          <div class="subscribe-box">
+            <input type="email" placeholder="Enter email" />
+            <button class="primary-button">Get Started</button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div>
+          <strong>Vamsick Flixer</strong>
+          <p>All your favorites, organized and delivered fast.</p>
+        </div>
+        <div>
+          <p class="footer-label">Support</p>
+          <a href="#">Help Center</a>
+          <a href="#">Account</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div>
+          <p class="footer-label">Connect</p>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">Twitter</a>
+        </div>
+      </footer>
+    </div>
+
+    <div class="search-overlay" id="search-overlay" aria-hidden="true">
+      <div class="search-panel">
+        <div class="search-header">
+          <h3>Search the catalog</h3>
+          <button class="icon-button" id="close-search" aria-label="Close">✕</button>
+        </div>
+        <input type="text" id="search-input" placeholder="Search titles" />
+        <ul id="search-results"></ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

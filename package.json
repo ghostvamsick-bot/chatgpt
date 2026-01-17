@@ -1,0 +1,9 @@
+{
+  "name": "vamsick-flixer",
+  "version": "1.0.0",
+  "description": "Streaming style landing page for Vamsick.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
