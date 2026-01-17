@@ -1,0 +1,100 @@
+{
+  "featured": [
+    {
+      "id": "nebula-nights",
+      "title": "Nebula Nights",
+      "tagline": "An interstellar noir for restless dreamers.",
+      "rating": "TV-MA",
+      "year": 2024,
+      "runtime": "2h 11m",
+      "genre": "Sci-Fi Thriller",
+      "summary": "A former space marshal hunts a rogue AI across glittering colonies while protecting the last memory of home.",
+      "heroImage": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "id": "coastal-echoes",
+      "title": "Coastal Echoes",
+      "tagline": "Every wave hides a secret.",
+      "rating": "PG-13",
+      "year": 2023,
+      "runtime": "1h 49m",
+      "genre": "Mystery Drama",
+      "summary": "A sound engineer returns to her seaside hometown to decode a decades-old broadcast that never aired.",
+      "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80"
+    }
+  ],
+  "trending": [
+    {
+      "id": "aurora-class",
+      "title": "Aurora Class",
+      "genre": "Adventure",
+      "rating": "PG",
+      "year": 2025
+    },
+    {
+      "id": "lunar-quarter",
+      "title": "Lunar Quarter",
+      "genre": "Drama",
+      "rating": "TV-14",
+      "year": 2024
+    },
+    {
+      "id": "signal-7",
+      "title": "Signal 7",
+      "genre": "Thriller",
+      "rating": "TV-MA",
+      "year": 2024
+    },
+    {
+      "id": "emberline",
+      "title": "Emberline",
+      "genre": "Fantasy",
+      "rating": "PG-13",
+      "year": 2023
+    },
+    {
+      "id": "studio-99",
+      "title": "Studio 99",
+      "genre": "Comedy",
+      "rating": "TV-14",
+      "year": 2022
+    },
+    {
+      "id": "crimson-tide",
+      "title": "Crimson Tide",
+      "genre": "Action",
+      "rating": "R",
+      "year": 2024
+    }
+  ],
+  "originals": [
+    {
+      "id": "vamsick-verse",
+      "title": "Vamsick Verse",
+      "genre": "Sci-Fi",
+      "rating": "TV-14",
+      "year": 2025
+    },
+    {
+      "id": "golden-hour",
+      "title": "Golden Hour",
+      "genre": "Romance",
+      "rating": "PG-13",
+      "year": 2024
+    },
+    {
+      "id": "iron-streets",
+      "title": "Iron Streets",
+      "genre": "Action",
+      "rating": "TV-MA",
+      "year": 2024
+    },
+    {
+      "id": "afterlight",
+      "title": "Afterlight",
+      "genre": "Drama",
+      "rating": "TV-14",
+      "year": 2023
+    }
+  ]
+}
